@@ -13,7 +13,6 @@ public class mainMobil {
         mobil1.maju();
         mobil1.mundur();
 
-        mobil mobil2 = 
     }
 
 }
