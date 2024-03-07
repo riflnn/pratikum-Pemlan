@@ -1,9 +1,5 @@
 package com.pratikum;
-
 public class buku {
-    public String Judul;
-    public String Pengarang;
-    public int JumlahHalaman;
 
     public String[][] teknologi = {
         {"Java Programming", "John Doe", "300"},
@@ -66,76 +62,72 @@ public String getInformasiBuku(int kode) {
     
     switch (kode) {
         case 1:
-            informasi = "\nKategori: Teknologi\n";
+            informasi = "\n Kategori\t: Teknologi\n";
             informasi += "========================\n";
             for (String[] buku : teknologi) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         case 2:
             informasi = "Kategori: Filsafat\n";
             informasi += "========================\n";
             for (String[] buku : filsafat) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         case 3:
-            informasi = "Kategori: Sejarah\n";
+            informasi = "Kategori\t: Sejarah\n";
             informasi += "========================\n";
             for (String[] buku : sejarah) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         case 4:
-            informasi = "Kategori: Agama\n";
+            informasi = "Kategori\t: Agama\n";
             informasi += "========================\n";
             for (String[] buku : agama) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         case 5:
-            informasi = "Kategori: Psikologi\n";
+            informasi = "Kategori\t: Psikologi\n";
             informasi += "========================\n";
             for (String[] buku : psikologi) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         case 6:
             informasi = "Kategori: Politik\n";
             informasi += "========================\n";
             for (String[] buku : politik) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         case 7:
-            informasi = "Kategori: Fiksi\n";
+            informasi = "Kategori\t: Fiksi\n";
             informasi += "========================\n";
             for (String[] buku : fiksi) {
-                informasi += "Judul: " + buku[0] + "\n";
-                informasi += "Pengarang: " + buku[1] + "\n";
-                informasi += "Jumlah Halaman: " + buku[2] + "\n\n";
+                informasi += "Judul\t\t: " + buku[0] + "\n";
+                informasi += "Pengarang\t: " + buku[1] + "\n";
+                informasi += "Jumlah Halaman\t: " + buku[2] + "\n\n";
             }
             break;
         default:
             informasi = "Kode buku tidak valid.";
             break;
-    }
-    
+    }  
     return informasi;
 }
-
-    
-
 }
