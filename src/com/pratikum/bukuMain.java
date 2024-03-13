@@ -77,7 +77,7 @@ public class bukuMain {
             buku buku2Fiks = new buku("1984", "George Orwell", 328, " quibusdam hic expedita ratione doloribus alias. Earum et adipisci alias, repudiandae natus sint animi quaerat impedit.");
             buku buku3Fiks = new buku("The Great Gatsby", "F. Scott Fitzgerald", 180, "dolor sit amet consectetur adipisicing elit. Est nihil soluta cumque possimus sint animi quaerat impedit.");
             buku buku4Fiks = new buku("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 320, "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, vel,");
-            buku buku5Fiks = new buku("The Lord of the Rings", "J.R.R. Tolkien", 1178, "soluta cumque possimus amet quibusdam hic expedita ratione doloribus alias. Earum et adipisci alias, repudiandae natus sint animi quaerat impedit.");
+            buku buku5Fiks = new buku("The Lord of the Rings", "J.R.R. Tolkien", 1178, "soluta cumque possimus amet quibusdam hic expedita ratione doloribus alias. Earum et adipisci alias, repudiandae natus sint animi quaerat impedita.");
             buku[] bukuArrayFiks = {buku1Fiks, buku2Fiks, buku3Fiks, buku4Fiks, buku5Fiks};
             perpus.kategori(bukuArrayFiks);
             break;

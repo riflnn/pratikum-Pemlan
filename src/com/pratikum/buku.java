@@ -31,7 +31,7 @@ public class buku {
         for (buku buku : bukuArray) {
             i++;
             if (i <= bukuArray.length) 
-                System.out.println("buku ke-" + i);
+                System.out.println("buku yang ke-" + i);
             buku.output();
         }
     }
